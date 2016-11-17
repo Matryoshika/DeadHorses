@@ -12,8 +12,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class Events {
 	
-	private int horseList = -1;
-	
 	@SubscribeEvent
 	public void killHorses(LivingUpdateEvent event){
 	    	
