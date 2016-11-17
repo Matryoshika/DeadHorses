@@ -1,0 +1,16 @@
+[
+{
+  "modid": "deadhorses",
+  "name": "Dead Horses",
+  "description": "Server-side Minecraft mod that keeps Skeleton Horses down to a reasonable amount",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Matryoshika"],
+  "credits": "The Forge and FML guys, for making Forge & FML",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
