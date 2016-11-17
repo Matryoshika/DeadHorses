@@ -24,7 +24,7 @@ public class Events {
 			if(!horse.worldObj.isRemote)
 			
 			if(horse.isSkeletonTrap() || horse.getType() == HorseType.SKELETON){
-
+			
 				if(event.getEntity().worldObj.rand.nextInt(DeadHorses.randomScanChance) == 1){
 					BlockPos pos = new BlockPos(horse.posX, horse.posY, horse.posZ);
 					
@@ -46,5 +46,4 @@ public class Events {
 			}
     	}
     }
-
 }
